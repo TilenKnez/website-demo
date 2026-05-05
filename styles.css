@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Consola';
+  src: url('Consolas-Font/CONSOLA.TTF') format('truetype');
+}
+
+* {
+  font-family: 'Consola';
+}
+
+.test {
+    text-align: center;
+    color: black;
+    background-color: transparent;
+    font-size: 48px;
+    
+}
+
+.centered-div {
+    height: 100 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    padding: 10px;
+    border-radius: 10%;
+    margin: 10px;
+
+}
+
+.ikonice {
+    width: 50px;
+    height: 50px;
+}
+
+* {
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+  bottom: 0;
+  text-align: center;
+
+  width: 100%;
+}
+
+header {
+    position: fixed;
+  top: 0;
+  text-align: center;
+
+  width: 100%;
+}
+
+.znak {
+    height: 200px;
+    width: 200px;
+}
